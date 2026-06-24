@@ -12,14 +12,16 @@
         <p>Authentic Italian Cuisine Since 1998</p>
         <img src="stars.png" width = 130>
         <nav>
-          Meun
-          Book A Table
-          Hours
-          Video
+          <ul>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#reservation">Book A Table</a></li>
+            <li><a href="#hours">Hours</a></li>
+            <li><a href="#video">Video</a></li>
+        </ul>
         </nav>
     </header>
     
-    <div>
+    <div id="menu">
         <h2> Our Menu </h2>
         <p> Fresh ingredients, timeless recipes </p>
 
@@ -109,7 +111,7 @@
         
         <hr>
     </div>
-    <div>
+    <div id="reservation">
         <h2> Book a Table </h2>
         <p>Reserve your spot for an unforgettable evening </p>
 
@@ -127,7 +129,7 @@
             <input type="number" step="1" min="1" max="20" value="1"><br>
 
             <label> Date <span >*</span> </label>
-            <input type="date"><br>
+            <input type="date" value="today"><br>
 
             <label> Preferred Time <span >*</span></label>
             <select>
@@ -148,7 +150,7 @@
         </form>
     </div>
 
-    <div>
+    <div id="hours">
         <h2> Opening Hours</h2>
         <p> We look forward to welcoming you </p>
 
@@ -172,10 +174,10 @@
         </table>
     </div>
 
-    <div>
+    <div id="video">
         <h2> Watch Our Story </h2>
         <p>A glimpse into our kitchen and atmosphere</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=Xj4-vF8QxqY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Xj4-vF8QxqY?si=yPsjfPL7gFNRGtzh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 
     <div>
@@ -191,9 +193,15 @@
         </div>
         <div>
             <h4> Quick Links</h4>
-            
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#reservation">Reservations</a></li>
+                <li><a href="#hours">Hours</a></li>
+                <li><a href="#video">Our Story</a></li>
+            </ul>
         </div>
     </div>
+    <hr>
     <footer>
     <p>© 2026 La Bella Tavola. All rights reserved.</p>
     </footer>
